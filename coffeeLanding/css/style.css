@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Space Mono', monospace;
+    text-align: center;
+}
+
+.intro-image {
+    background-attachment: fixed;
+    background-image: url("../img/kohv3.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro-image__link a {
+    background-color:#acb8c8b5;
+    border: 2px solid #acb8c8b5 ;
+    color: #F8F9FB;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    transition: all 0.5s ease-in-out;
+
+}
+
+.intro-image__link a:hover {
+        transform: scale(1.2);
+}
+
+.intro-text {
+    background-color: #DDC094;
+    color: #08120E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+    padding: 0 15rem;
+    
+}
+
+.intro-text__textbox h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.quality-image {
+    background-attachment: fixed;
+    background-image: url("../img/kohv4.jpg");
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 450px;
+}
+
+.quality-image__link a {
+    background-color:#d6bcae9e;
+    border: 2px solid #d6bcae ;
+    color: #BB7A52;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    transition: all 0.5s ease-in-out;
+   
+}
+
+.quality-image__link a:hover {
+    transform: scale(1.2);
+}
+
+.quality-text {
+    background-color: #BCB9B2;
+    color: #4F453F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+    padding: 0 15rem;
+}
+
+.quality-text__textbox h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.origin-image {
+    background-attachment: fixed;
+    background-image: url("../img/kohv.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 450px;
+}
+
+.origin-image__link a {
+    background-color:#d29f5d8e;
+    border: 2px solid #CC9850 ;
+    color: #BB7A52;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    transition: all 0.5s ease-in-out;
+}
+
+.origin-image__link a:hover {
+    transform: scale(1.2);
+}
+
+.origin-text {
+    background-color: #DBAA5B;
+    color: #2C2A30;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+    padding: 0 15rem;
+}
+
+.origin-text__textbox h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+
+.footer {
+    background-color: #6E6960;
+    height: 250px;
+    color: #EBBCA6;
+    font-size: 2rem;
+    padding-top: 2rem;
+}
+
+.footer ul li {
+
+    display: inline-block;
+    margin: 1rem;
+}
+
+.footer ul li a {
+    color: #DCC3B2;
+    text-decoration: none;
+}
+
+.footer ul li:hover {
+    transform: scale(1.2);
+}
+
